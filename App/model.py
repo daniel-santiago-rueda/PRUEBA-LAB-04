@@ -221,7 +221,7 @@ def comparetagnames(name, tag):
 
 def compareratings(book1, book2):
     # TODO modificar operador de comparacion lab 4
-    return (float(book1['average_rating']) > float(book2['average_rating']))
+    return (float(book1['average_rating']) < float(book2['average_rating']))
 
 
 # Funciones de ordenamiento
