@@ -105,6 +105,9 @@ def sortBooks(control, size):
     """
     return model.sortBooks(control['model'], size)
 
+def sortList(control, size):
+    return model.sortedList(control["model"], size)
+
 
 # Funciones de consulta sobre el catálogo
 
